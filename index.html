@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #bg{
+          background-color: black;
+        }
+        #box{
+            height: 50px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: black;
+            
+        }
+        #box1{
+            height: 30px;
+            width: 25%;
+            border: 1px solid black;
+            margin-top: 10px;
+            float: left;
+        
+        }
+        #bb1{
+            height: 29px;
+            width: 30px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 40px;
+            line-height: 30px;
+        }
+        #bb2{
+            height: 30px;
+            width: 75%;
+            border: 1px solid black;
+            float: left;
+            cursor: pointer;
+            margin-top: 13px;
+        }
+        #ab{
+           text-align: left;
+           line-height: 2px;
+           color: #CC9900;
+        }
+        #box2{
+            height: 30px;
+            width: 20%;
+            border: 1px solid black;
+            float: left;
+            margin-top: 10px;
+            
+        
+        }
+        #bb3{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            
+        }
+        #bb4{
+            height: 30px;
+            width: 85%;
+            border: 1px solid black;
+            float: left;
+            cursor: pointer;
+            margin-top: 13px;
+        }
+        #cd{
+            text-align: left;
+           line-height: 2px;
+           color: #CC9900;
+        }
+        #box3{
+            height: 30px;
+            width: 150%;
+            border: 1px solid black;
+            float: left;
+            margin-left: 600px;
+            margin-top: -47px; 
+            margin-bottom: 10px;
+        }
+        #bb5{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 80px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #bb6{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 30px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #bb7{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 30px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+          #nav{
+            height: 100px;
+            width: 100%;
+            border: 1px solid black;
+            
+            background-color: black;
+
+          }  
+          #box4{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 80px;
+          }
+          #box5{
+            height: 100px;
+            width: 800px;
+           
+            float: left;
+            margin-left: 50px;
+            cursor: pointer;
+            
+          }
+          #box6{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 20px;
+          }
+          #hl{
+            text-align: center;
+            margin-top: 30px;
+            color: #CC9900;
+          }
+          ul li{
+            list-style: none;
+            float: left;
+            margin-left: 50px;
+            line-height: 100px;
+            color: #CC9900;
+          }
+          #gs{
+            margin-top: 35px;
+            margin-left: 30px;
+            font-size: medium;
+            cursor: pointer;
+            
+          }
+          #banner{
+            height: 450px;
+            width: 100%;
+            
+            background-image: url(banner4.jpg);
+            background-size: cover;
+           
+          }
+          #about{
+            height: 100px;
+            width: 100%;
+           
+            text-align: center;
+          }
+          #ab1{
+            margin-top: 40px;
+            color: white;
+          }
+          #check{
+            height: 80px;
+            width: 100%;
+            
+            
+          }
+          #ci{
+            height: 100px;
+            width: 20%;
+            
+            
+            margin-left: 150px;
+            float: left;
+          }
+          #g{
+            height: 100px;
+            width: 20%;
+         
+            
+            margin-left: 100px;
+            float: left;
+            
+          }
+          #abc{
+            font-size: 150%;
+            margin-left: 70px;
+            margin-top: 10px;
+            color: white;
+            
+          }
+          #abc1{
+            font-size: 120%;
+            margin-left: 70px;
+            margin-top: 10px; 
+            width: 100px;
+          }
+          #abcd{
+            font-size: 120%;
+            margin-top: 30px;
+            
+          }
+          #bt{
+            height: 100px;
+            width: 20%;
+           
+           
+            margin-left: 100px;
+            float: left;
+            text-align: center;
+            
+          }
+          #vid1{
+            height: 400px;
+            width: 100%;
+           background-image: url(bg.jpg);
+            background-size: cover;
+          
+          }
+          #vid{
+            height: 350px;
+            width: 70%;
+            margin-left: 230px;
+            margin-top: 40px;
+
+          }
+          #pi{
+            height: 700px;
+            width: 100%;
+          
+            color: white
+          }
+          #ow{
+           margin-top: 60px;
+          }
+          #pi1{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            
+          }
+          #head{
+            height: 500px;
+            width: 100%;
+          
+          }
+          #image{
+            height: 400px;
+            width: 400px;
+            border: 1px solid #CC9900;
+            margin-left: 200px;
+            margin-top: 50px;
+            float: left;
+          }
+          #image1{
+            height: 200px;
+            width: 600px;
+           
+            margin-left: 50px;
+            margin-top: 150px;
+            float: left;
+          }
+           #image2{
+            height: 200px;
+            width: 600px;
+            margin-left: 150px;
+            margin-top: 180px;
+            float: left;
+          }
+          #image3{
+            height: 400px;
+            width: 400px;
+            border: 1px solid #CC9900;
+            margin-left: 5px;
+            margin-top: 50px;
+            float: left;
+          }
+          #image4{
+            height: 400px;
+            width: 400px;
+            border: 1px solid #CC9900;
+            margin-left: 200px;
+            margin-top: 50px;
+            float: left;
+          }
+          #image5{
+            height: 200px;
+            width: 600px;
+            margin-left: -40px;
+          
+            margin-top: 180px;
+            float: left;
+          }
+          #banner1{
+            height: 450px;
+            width: 100%;
+            
+            background-image: url(cofeebg.jpg);
+            background-size: cover;
+           
+          }
+#a1{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#a2{
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#a3{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#he{
+  color: #CC9900;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+#he1{
+  color: white;
+  margin-top: 10px;
+  margin-left: 70px;
+  
+}
+#pic{
+  height: 350px;
+  width: 100%;
+  
+}
+#im3{
+  height: 310px;
+  width: 310px;
+  margin-top: 15px;
+  margin-left: 55px;
+  float: left;
+  cursor: pointer;
+ opacity: 3;
+ display: block;
+ transition: ease 1s;
+ transform: translate(1%, 1%);
+ -ms-transform: translate(-50%, -50%);
+
+  
+}
+#im3:hover{
+  opacity: 0.3;
+}
+#im4{
+  height: 310px;
+  width: 310px;
+  
+  margin-top: 15px;
+  float: left;
+  cursor: pointer;
+ opacity: 3;
+ display: block;
+ transition: ease 1s;
+ transform: translate(1%, 1%);
+ -ms-transform: translate(-50%, -50%); 
+}
+#im4:hover{
+  opacity: 0.3;
+}
+#last{
+  height: 200px;
+  width: 100%;
+  
+}
+#last1{
+  height: 225px;
+  width: 225px;
+  border: 3px solid #CC9900;
+  border-radius: 360px;
+  margin: 0 auto;
+  background-image: url(last21.png);
+ 
+}
+#last2{
+  height: 150px;
+  width: 350px;
+  
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#last3{
+  height: 150px;
+  width: 350px;
+
+  float: left;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+#last4{
+  height: 150px;
+  width: 300px;
+  
+  float: left;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+#lastt{
+  height: 200px;
+  width: 100%;
+ 
+}
+#copy{
+  height: 50px;
+  width: 100%;
+ 
+ text-align: center;
+  color: white;
+}
+
+    </style>
+</head>
+<body>
+  <div id="bg">
+    <div id="box">
+        <div id="box1">
+            <div id="bb1">
+                <img src="email-icon.png">
+            </div>
+            <div id="bb2">
+            <p id="ab">coffeebrew@gmail.com</p>
+            </div>
+        </div>
+        <div id="box2">
+            <div id="bb3">
+                <img src="phone.png">
+            </div>
+            <div id="bb4">
+                <p id="cd">+92 3212764328</p>
+            </div>
+            <div id="box3">
+                <div id="bb5">
+                    <img src="twitter.png">
+                </div>
+                <div id="bb6">
+                    <img src="facebook.png"> 
+                 </div>
+                 <div id="bb7">
+                     <img src="instagram.png">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div id="nav">
+         <div id="box4">
+             <h1 id="hl">Coffeebrew</h1>
+         </div>
+         <div id="box5">
+             <ul>
+                 <li>Home</li>
+                 <li>About</li>
+                 <li>Our Coffee</li>
+                 <li>Bank Discounts</li>
+                 <li>Team</li>
+                 <li>Contact</li>
+             </ul>            </ul>
+ 
+         </div>
+         <div id="box6">
+             <button type="Get Started" id="gs">Order Online</button>
+         </div>
+     </div>
+     <div id="banner"> </div>
+     <div id="about">
+        <h4 id="ab1">We Source The Best Beans For Our Fresh-Crop Coffee,Offering Various Blends And Single Origins</h4>
+     </div>
+     <div id="check">
+        <div id="ci"><h4 id="abc">Check In</h4>
+        <select name="" id="abc1">
+            <option value=""></option>
+            <option value="">2 PM</option>
+            <option value="">3 PM</option>
+            <option value="">4 PM</option>
+            <option value="">5 PM</option>
+            <option value="">6 PM</option>
+            <option value="">7 PM</option>
+            <option value="">8 PM</option>
+            <option value="">9 PM</option>
+            <option value="">10 PM</option>
+        </select>
+    </div>
+    <div id="g"><h4 id="abc">Guest</h4>
+        <select name="" id="abc1">
+          <option value=""></option>
+            <option value="">Adult</option>
+            <option value="">Child</option>
+            <option value="">Other</option>
+            
+        </select>
+        </div>
+        <div id="bt">
+        <button type="button" id="abcd">Check Availability</button>
+    </div>
+     </div>
+     <div id="vid1">
+        <video src="COFFEE COMMERCIAL ADVERTISEMENT - 7 miles roasters coffee beans ad.mp4" controls id="vid"></video>
+     </div>
+     <div id="pi">
+      <h1 id="pi1">Popular Items</h1>
+      <h3>Most ordered right now</h3>
+      <div class="owl-carousel owl-theme" id="ow">
+        <div class="item"><img src="coffee1.jpg" height="500"></div>
+        <div class="item"><img src="coffee2.jpg" height="500"></div>
+        <div class="item"><img src="coffee3.jpg" height="500"></div>
+        <div class="item"><img src="coffee4.jpg" height="500"></div>
+        <div class="item"><img src="coffee5.jpg" height="500"></div>
+        <div class="item"><img src="coffee6.jpg" height="500"></div>
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+        items:3,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
+        });
+        $('.play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+         })
+        $('.stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+        })
+
+</script>
+</div>
+     
+     <div id="head">
+<div id="image">
+<img src="a1.jpg" id="a1">
+</div>
+<div id="image1">
+  <p id="he1">Coffeebrew</p>
+  <h2 id="he">Awaken Your Sense With Our Premium Coffee Blends</h2>
+  <p id="he1">The coffee is brewed by first roasting the green coffee coals in a brazier,given an opportunity to sample.</p>
+</div>
+     </div>
+     <div id="head">
+<div id="image2">
+<h1 id="he">A World Of Taste Awalts</h1>
+<p id="he1">Indulde In The Extraordinary At Coffeebrew,Where Every Cup Is A Flavor Filled Voyage Like No Other. Our Unwavering Dedication To Quality That Every Sip Is A Delightful Exploration Of Taste And Aroma. Join Us And Savor The Exceptional Experience That Sets Us Apart</p>
+</div>
+<div id="image3">
+  <img src="a2.jpg" id="a2">
+</div>
+     </div>
+     <div id="head">
+      <div id="image4">
+        <img src="a3.jpg" id="a3">
+      </div>
+      <div id="image5">
+        <h1 id="he">Handcrafted Exotic Flavors</h1>
+        <p id="he1">Welcome To Our Coffee World,Where We're Dedicated To Crafting Unforgettable Moments With Every Visit.As You Step Through Our Doors,Our Warm And Friendly Staff Will Welcome You Into The World Of Bold And Indulgent Flavors.</p>
+      </div>
+           </div>
+           <div id="banner1"> </div>
+           <div id="pic">
+<div id="im3">
+  <img src="cafe1.jpg">
+</div>
+<div id="im4">
+<img src="cafe2.jpg">
+</div>
+<div id="im4">
+<img src="cafe3.jpg">
+</div>
+<div id="im4">
+  <img src="cafe4.jpg">
+  </div>
+           </div>
+           <div id="last">
+<div id="last1"></div></div>
+<div id="lastt">
+<div id="last2">
+  <h3 id="he">Company About</h3>
+  <p id="he1">Get In Touch With Us:Feel Free To Reach Out To Our Team.We're Here To Assist You And Answer Any Questions You May Have.</p>
+</div>
+<div id="last3">
+  <h3 id="he">Opening Hours</h3>
+  <p id="he1">Monday-Friday 07:00 Am-9:00 Pm</p>
+  <p id="he1">Saturday-Sunday 07:00 Am-12:00 Am</p>
+</div>
+<div id="last4">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1TWjK-qadigTRp5rr6LB1l4e-JoE&hl=en&ehbc=2E312F" width="300" height="150"></iframe>
+</div>
+           </div>
+           <div id="copy">
+            <p>Copy Right @0450 Coffeebrew</p>
+           </div>
+    </div>
+     </div>
+</body>
+</html>
